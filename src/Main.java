@@ -1,9 +1,20 @@
 
-//import java.util.*;
+import java.util.*;
 public class Main {
 
     public static void main (String[] args){
 
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("Input value to multiply: " );
+        int num=sc.nextInt();
+
+        for(int i=1;i<=10;i++){
+            System.out.println("5 x "+ i+" = "+num*i);
+        }
+
+
+  /*
         byte byteVariable=122;
         int wholeNumber=122;
         long largeDecimalNumbers=-12;
@@ -24,13 +35,16 @@ public class Main {
         System.out.println("char "+letter);
         System.out.println("Non-primitive types");
         System.out.println(text);
-
-
-
         double doubleNumber;
         int i=23;
         doubleNumber=i;
 
         System.out.println(doubleNumber);
+
+*/
+
+
+
+
     }
 }
