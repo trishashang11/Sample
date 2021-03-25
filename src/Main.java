@@ -10,7 +10,13 @@ public class Main {
         int num=sc.nextInt();
 
         for(int i=1;i<=10;i++){
-            System.out.println("5 x "+ i+" = "+num*i);
+            int ans=num*i;
+            if(ans%2==0){
+                System.out.println("5 x "+ i+" = "+ans+" the given answer is given");
+            }
+            else{
+                System.out.println("5 x "+ i+" = "+ans+" the given answer is odd");
+            }
         }
 
 
